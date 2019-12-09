@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.home-text{
+    width: 100%;
+    height: auto;
+}
+.home-text-main{
+    width: 100%;
+    height: 100px;
+}
+.home-main-arena{
+    width: 100%;
+    height: auto; 
+}    
+.home-text h1{
+    top: 25%;
+    left: 25%;
+    font-size: 1.8em;
+    font-weight: 650;
+    overflow: hidden;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif ;
+}
+.home-text-main h2{
+    overflow: hidden;
+    max-width: 100%;
+    line-height:100px;
+    padding-left:7%;
+    font-size: 24px;
+    position: relative;
+    text-transform: capitalize;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif ;
+   color: #434343;
+}
+.home-text-main h2:before{
+    font-family: "Font Awesome 5 Free";
+    content: "";
+    display: block;
+    width: 5%;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    /* background: #000; */
+    border-top: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+
+}
+.home-text-main h2:after{
+    content: "";
+    display: block;
+    width:71%;
+    height:5px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-top: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+}
+a span {
+    white-space: nowrap;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+.container-custom {
+    max-width: 1276px;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.home-box-nav {
+    width: 100%;
+    margin-left: 24%;
+}
+.home-logo,
+.home-user {
+    width: 100%;
+    height: 70px;
+}
+.home-list {
+    z-index: 999;
+    background-color: #F6F6F6;
+    max-width: 100%;
+    height: 40px;
+    -webkit-box-shadow: 0px 10px 12px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 12px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 12px -10px rgba(0,0,0,0.75);
+}
+
+.home-list .nav {
+    padding: 0px;
+}
+.box-nav-list {
+    max-width: 50%;
+    height: auto;
+}
+.home-logo-img {
+    max-width: 300px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.home-logo-img img {
+    width: 300px;
+    height: auto;
+}
+.nav-item a {
+    color: #696969;
+    font-size: 15px;
+}
+.nav {
+    padding: 15px;
+}
+.dropdown {
+    float: right;
+    font-family: 'Karla', sans-serif;
+    padding: 5px;
+}
+.btn-custom {
+    font-size: 0.9rem !important;
+    border-color: none;
+    color: white !important;
+    font-weight: 500 !important;
+    transform: translate(13%, 25%);
+    background : #5392f9 !important;
+    box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+}
+.home--text-position .btn-custom2{
+    font-size: 0.9rem !important;
+    border-color: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.btn-custom:hover {
+    color: black !important;
+    transition:  0.5s !important;
+}
+.home-banner {
+    width: 100%;
+    height: 550px; 
+}
+.home-img-banner{
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+.home-img-banner img {
+    image-rendering: auto;
+    width: 1349px;
+    height: 100%;
+    z-index: 996;
+}
+
+.home-dark{
+    z-index: 997;
+    width: 100%;
+    height: inherit;
+    box-shadow: inset 0px -44px 98px 21px rgba(0,0,0,0.83);
+    opacity: 15%;
+}
+
+.home-input{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 29%;
+    left: 25%;
+}
+.home-input input:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.home-input input[type=text]{
+    float: left;
+    max-width: 100%;
+    height: 60px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.home-input input[type=date], #inputState , .btn-search {
+    transform: translate(0%,22%);
+    height:60px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.btn-search {
+    width: 100%;
+    background-color: #5392f9 !important;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.12)
+}
+.home-text-search{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+.card-3 .home--text-position{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 997;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;	
+    transform: translate(9%,396%);
+}
+.card-4:hover .home--text-position{
+}
+.card-4 .home--text-position{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 997;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;	
+    transform: translate(5%,55%);
+}
+.card-4,.card-3{
+    width: 100%;
+    height: auto;
+    border: 0px !important;
+    /* border-radius: 0px !important; */
+    position: relative;
+    z-index: 99;
+}
+
+.card-3 img{
+    max-width: 100%;
+    height: 316px;
+    object-fit: cover;
+}
+.box-shadow{
+    position: absolute;
+    width: 100%;
+    height: 316px;
+    z-index: 100;
+    box-shadow: inset 0px -44px 98px 21px rgba(0,0,0,0.83);
+
+}
+.card-4 img{
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* swiper */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.swiper-slide{
+    width: 300px;
+    height:auto;    
+    z-index: 999;
+}
+.swiper-slide img{
+    width: 100%;
+    height: auto;    
+}
+.swiper-pagination{
+    position: static;
+}
+.swiper-button-prev:after, .swiper-button-next:after{
+    content: "";
+}
+.swiper-button-prev{
+    left: 2px;
+    right: auto;
+}
+.swiper-button-next{
+    right: 2px;
+    left: auto;
+}
+.swiper-button-next,.swiper-button-prev{
+    top: 47%;
+    font-size: 40px;
+    z-index: 998;
+}
+.home-box-mr{
+    width: 100%;
+    height: 50px;
+}
+.home-place-img{
+    width: 100%;
+    height: auto;
+}
+.home-place-img img {
+    max-width: 100%;
+    height: auto;
+}
+p.d{
+    width: 100%;
+    font-size: 17.7px;
+}
